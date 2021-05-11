@@ -10,15 +10,15 @@ To create a heading and text below it, use this example code.
 *text* 'This is an example text.' ||??!!;;##
 ```
 To create a button that says "Hello" 
-```
+```c#
 *button* 'hello' ||??!!;;##
-```  
+```
 A text input with "Type here..." as the placeholder 
-```
+```c#
 *input* ;Type here...; ||??!!''##
-```  
-A link to Duckduckgo.com that says "Click here to go to DuckDuckGo" 
 ```
+A link to Duckduckgo.com that says "Click here to go to DuckDuckGo" 
+```c#
 *link* 'Click here to go to DuckDuckGo' |https://duckduckgo.com| ??!!;;##
 ```  
 Useful tips  
