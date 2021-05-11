@@ -21,3 +21,10 @@ A link to Duckduckgo.com that says "Click here to go to DuckDuckGo"
 ```
 *link* 'Click here to go to DuckDuckGo' |https://duckduckgo.com|
 ```  
+Useful tips
+element * *
+id # #
+innerHTML ' '
+src ? ?
+width ! ! 
+href | |
