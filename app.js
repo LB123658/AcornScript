@@ -1,3 +1,4 @@
+// OLD VERSION
 var div = document.getElementById("div");
 var x = document.getElementById("txt");
 function myFunction() {
