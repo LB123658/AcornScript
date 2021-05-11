@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>About AcornScript</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+<head>
+<style>
+#logo {
+color: #dc1b1b;
+user-select: none;
+position: absolute;
+top: 0px;
+left: 5%;
+font-family: 'Fira Code', monospace;
+font-weight: bold;
+}
+#logo:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+#text {
+color: #dc1b1b;
+position: absolute;
+top: 100px;
+margin-left: 50px;
+margin-right: 50px;
+font-family: 'Fira Code', monospace;
+font-weight: bold;
+text-align: justify;
+}
+.code {
+color: #282828;
+}
+::selection {
+background: #dc1b1b;
+color: white;
+}
+a {
+color: #dc1b1b;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<a href="index.html">
+<h1 id="logo">AcornScript</h1></a>
+<p id="text">AcornScrpt lets you format text easily and add buttons, photos, videos and more, to easily make it more like a website. Each line of code must contain the following characters in pairs of two like they are written, unless you are only writing one line of code or only useing the *heading* and *text* elements:<br><br>
+** (text in between specifies element)<br>
+'' (text in between specifies words of text or heading)<br>
+|| (text in between specifies website of a link)<br>
+?? (text in between specifies website source of photo, embed, or video)<br>
+!! (text in between specifies element width)<br>
+;; (text in between specifies input placeholder)<br><br>
+Each line MUST include all of these characters even if there is not text inside them. Also, when using the AcornScript editor, copy your code, reload the page, and paste it in again to see changes made because clicking the run button will not work. Coming soon: Editor will auto-generate HTML from your code.<br><br>
+EXAMPLES:<br>
+1. A simple heading that says "Hello" and text below that says "This is text..."<br><br>
+<span class="code">*heading* 'Hello' ||??!!;;<br>*text* 'This is text...' ||??!!;;</span><br><br>
+2. This example has creates a link to this website and says "AcornScript"<br><br>
+<span class="code">*link* 'AcornScript' |https://lb123658.github.io/AcornScript/docs| ??!!;;</span><br><br><a href="https://lb123658.github.io/AcornScript/">Try the editor</a><br><br><br><br></p>
+
+</body>
+</html>
