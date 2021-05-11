@@ -5,7 +5,7 @@ AcornScript only allows two lines of code right now but there will be more soon.
 ### How to use
 To add an id to any of the elements, add the id name inside two ```#```  
 To create a heading and text below it, use this example code. 
-```python
+```AcornScript
 *heading* 'This is a heading' ||??!!;;##
 *text* 'This is an example text.' ||??!!;;##
 ```
