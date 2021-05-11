@@ -6,25 +6,26 @@ AcornScript only allows two lines of code right now but there will be more soon.
 To add an id to any of the elements, add the id name inside two ```#```  
 To create a heading and text below it, use this example code. 
 ```
-*heading* 'This is a heading'
-*text* 'This is an example text.'
+*heading* 'This is a heading' ||??!!;;##
+*text* 'This is an example text.' ||??!!;;##
 ```
 To create a button that says "Hello" 
 ```
-*button* 'hello'
+*button* 'hello' ||??!!;;##
 ```  
 A text input with "Type here..." as the placeholder 
 ```
-*input* ;Type here...;
+*input* ;Type here...; ||??!!''##
 ```  
 A link to Duckduckgo.com that says "Click here to go to DuckDuckGo" 
 ```
-*link* 'Click here to go to DuckDuckGo' |https://duckduckgo.com|
+*link* 'Click here to go to DuckDuckGo' |https://duckduckgo.com| ??!!;;##
 ```  
-Useful tips
-element * *
-id # #
-innerHTML ' '
-src ? ?
-width ! ! 
-href | |
+Useful tips  
+element * *  
+id # #  
+innerHTML ' '  
+src ? ?  
+width ! !   
+href | |  
+placeholder ; ;  
