@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
 <title>AcornScript</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
 <style>
+body {
+background: white;
+}
 #txt {
 position: absolute;
 top: 10%;
 height: 85%;
 left: 5%;
 width: 45%;
+background: transparent;
+color: #181818;
+font-size: 15px;
+font-family: 'Fira Code', monospace;
+font-weight: bold;
 }
 #txt:focus {
 outline-width: 0;
@@ -15,8 +25,48 @@ border: 1px solid red;
 }
 #r {
 position: absolute;
-top: 5%;
-left: 200px;
+top: 15px;
+right: 155px;
+height: 50px;
+background: #dc1b1b;
+color: white;
+font-size: 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+#r:hover {
+opacity: 0.7;
+}
+#c {
+position: absolute;
+top: 15px;
+right: 80px;
+height: 50px;
+background: #dc1b1b;
+color: white;
+font-size: 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+#c:hover {
+opacity: 0.7;
+}
+#open {
+position: absolute;
+top: 15px;
+right: 10px;
+height: 50px;
+background: #dc1b1b;
+color: white;
+font-size: 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+#open:hover {
+opacity: 0.7;
 }
 #div {
 position: absolute;
@@ -24,15 +74,38 @@ top: 10%;
 height: 85%;
 right: 5%;
 width: 43%;
-border: 1px solid red;
+background: white;
+font-family: arial;
+}
+#logo {
+color: #dc1b1b;
+pointer-events: none;
+user-select: none;
+position: absolute;
+top: 0px;
+left: 5%;
+font-family: 'Fira Code', monospace;
+font-weight: bold;
 }
 </style>
 <body>
-<h1>AcornScript</h1>
-<button onclick="clear(); myFunction()" id="r">Run code</button>
-<textarea id="txt"></textarea>
+<h1 id="logo">AcornScript</h1>
+<button onclick="myFunction()" id="r">Run code</button>
+<button onclick="copy()" id="c" title="Copy code"><span id="span">Copy</span></button>
+<a href="docs" target="_blank">
+<button id="open">More</button></a>
+<textarea id="txt" placeholder="Write code here..."></textarea>
 <div id="div"></div>
-<p id="done"></p>
-<script src="script.js"></script>
+<script src="https://lb123658.github.io/AcornScript/script.js"></script>
+<script>
+function copy() {
+  var copyText = document.getElementById("txt");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  document.getElementById("span").innerHTML = "Copied";
+  document.getElementById("r").style.right = "170px";
+}  
+</script>
 </body>
 </html>
