@@ -40,7 +40,7 @@ var text = document.createElement("link");
 text.rel = document.getElementById("fot").innerHTML.split("/rel/")[1];
 text.href = document.getElementById("fot").innerHTML.split("/href/")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
-div.appendChild(text);
+document.head.appendChild(text);
 } 
 if (document.getElementById("fot").innerHTML.split(":")[3] == "button") {
 var three = document.createElement("button");
