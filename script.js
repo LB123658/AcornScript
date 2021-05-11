@@ -32,7 +32,7 @@ div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "link") {
 var text = document.createElement("a");
 text.innerHTML = document.getElementById("fot").innerHTML.split("'")[1];
-text.href = document.getElementById("fot").innerHTML.split("/url/")[1];
+text.href = document.getElementById("fot").innerHTML.split("|")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "css") {
@@ -98,7 +98,7 @@ div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "link") {
 var three = document.createElement("a");
 three.innerHTML = document.getElementById("fot").innerHTML.split("'")[3];
-three.href = document.getElementById("fot").innerHTML.split("/url/")[3];
+three.href = document.getElementById("fot").innerHTML.split("|")[3];
 three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "photo") {
@@ -146,7 +146,7 @@ div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "link") {
 var five = document.createElement("a");
 five.innerHTML = document.getElementById("fot").innerHTML.split("'")[5];
-five.href = document.getElementById("fot").innerHTML.split("/url/")[5];
+five.href = document.getElementById("fot").innerHTML.split("|")[5];
 five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "photo") {
@@ -194,7 +194,7 @@ div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "link") {
 var seven = document.createElement("a");
 seven.innerHTML = document.getElementById("fot").innerHTML.split("'")[7];
-seven.href = document.getElementById("fot").innerHTML.split("/url/")[7];
+seven.href = document.getElementById("fot").innerHTML.split("|")[7];
 seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "photo") {
@@ -242,7 +242,7 @@ div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "link") {
 var nine = document.createElement("a");
 nine.innerHTML = document.getElementById("fot").innerHTML.split("'")[9];
-nine.href = document.getElementById("fot").innerHTML.split("/url/")[9];
+nine.href = document.getElementById("fot").innerHTML.split("|")[9];
 nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "photo") {
