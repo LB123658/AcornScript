@@ -1,10 +1,5 @@
 var div = document.getElementById("div");
 var x = document.getElementById("txt");
-function clear() {
-//clear old script
-document.getElementById("fot").remove();
-div.innerHTML = "";
-}
 function myFunction() {
 // store script
 var p = document.createElement("P");
