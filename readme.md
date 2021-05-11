@@ -3,10 +3,6 @@ Create simple webpages with this new code.
 AcornScript only allows two lines of code right now but there will be more soon.  
 [Try it out](https://lb123658.github.io/AcornScript/)
 ### How to use
-To add CSS styles to your code you need to add a <link> to the CSS code in the first line.
-```
-:css: /rel/stylesheet/rel/ /href/WEBSITE.COM/EXAMPLE.CSS/href/
-```
 To add an id to any of the elements, add the id name inside two ```#```  
 To create a heading and text below it, use this example code. 
 ```
