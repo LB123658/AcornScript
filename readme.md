@@ -15,9 +15,9 @@ To create a button that says "Hello"
 ```  
 A text input with "Type here..." as the placeholder 
 ```
-*input* /placeholder/Type here.../placeholder/
+*input* ;Type here...;
 ```  
 A link to Duckduckgo.com that says "Click here to go to DuckDuckGo" 
 ```
-*link* \Click here to go to DuckDuckGo\ /url/https://duckduckgo.com/url/
+*link* 'Click here to go to DuckDuckGo' |https://duckduckgo.com|
 ```  
