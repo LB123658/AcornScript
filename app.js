@@ -35,6 +35,12 @@ text.innerHTML = document.getElementById("fot").innerHTML.split("/")[1];
 text.href = document.getElementById("fot").innerHTML.split("/url/")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
+} else if (document.getElementById("fot").innerHTML.split(":")[1] == "css") {
+var text = document.createElement("link");
+text.rel = document.getElementById("fot").innerHTML.split("/rel/")[1];
+text.href = document.getElementById("fot").innerHTML.split("/href/")[1];
+text.id = document.getElementById("fot").innerHTML.split("#")[1];
+div.appendChild(text);
 } 
 if (document.getElementById("fot").innerHTML.split(":")[3] == "button") {
 var three = document.createElement("button");
