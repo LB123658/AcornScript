@@ -26,7 +26,7 @@ text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "input") {
 var text = document.createElement("input");
-text.placeholder = document.getElementById("fot").innerHTML.split("...")[1];
+text.placeholder = document.getElementById("fot").innerHTML.split(";")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "link") {
@@ -43,34 +43,34 @@ text.id = document.getElementById("fot").innerHTML.split("#")[1];
 document.head.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "photo") {
 var text = document.createElement("img");
-text.src = document.getElementById("fot").innerHTML.split("/src/")[1];
-text.style.width = document.getElementById("fot").innerHTML.split("/width/")[1];
+text.src = document.getElementById("fot").innerHTML.split("<")[1];
+text.style.width = document.getElementById("fot").innerHTML.split(">")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "embed") {
 var text = document.createElement("embed");
-text.src = document.getElementById("fot").innerHTML.split("/src/")[1];
-text.style.width = document.getElementById("fot").innerHTML.split("/width/")[1];
+text.src = document.getElementById("fot").innerHTML.split("<")[1];
+text.style.width = document.getElementById("fot").innerHTML.split(">")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "video") {
 var text = document.createElement("video");
-text.src = document.getElementById("fot").innerHTML.split("/src/")[1];
-text.style.width = document.getElementById("fot").innerHTML.split("/width/")[1];
+text.src = document.getElementById("fot").innerHTML.split("<")[1];
+text.style.width = document.getElementById("fot").innerHTML.split(">")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "alert") {
 alert(document.getElementById("fot").innerHTML.split("'")[1]);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "embed") {
 var text = document.createElement("embed");
-text.src = document.getElementById("fot").innerHTML.split("/src/")[1];
-text.style.width = document.getElementById("fot").innerHTML.split("/width/")[1];
+text.src = document.getElementById("fot").innerHTML.split("<")[1];
+text.style.width = document.getElementById("fot").innerHTML.split(">")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "video") {
 var text = document.createElement("video");
-text.src = document.getElementById("fot").innerHTML.split("/src/")[1];
-text.style.width = document.getElementById("fot").innerHTML.split("/width/")[1];
+text.src = document.getElementById("fot").innerHTML.split("<")[1];
+text.style.width = document.getElementById("fot").innerHTML.split(">")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 }
@@ -92,7 +92,7 @@ three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "input") {
 var three = document.createElement("input");
-three.placeholder = document.getElementById("fot").innerHTML.split("...")[3];
+three.placeholder = document.getElementById("fot").innerHTML.split(";")[3];
 three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "link") {
@@ -103,20 +103,20 @@ three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "photo") {
 var three = document.createElement("img");
-three.src = document.getElementById("fot").innerHTML.split("/src/")[3];
-three.style.width = document.getElementById("fot").innerHTML.split("/width/")[3];
+three.src = document.getElementById("fot").innerHTML.split("<")[3];
+three.style.width = document.getElementById("fot").innerHTML.split(">")[3];
 three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "embed") {
 var three = document.createElement("embed");
-three.src = document.getElementById("fot").innerHTML.split("/src/")[3];
-three.style.width = document.getElementById("fot").innerHTML.split("/width/")[3];
+three.src = document.getElementById("fot").innerHTML.split("<")[3];
+three.style.width = document.getElementById("fot").innerHTML.split(">")[3];
 three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "video") {
 var three = document.createElement("video");
-three.src = document.getElementById("fot").innerHTML.split("/src/")[3];
-three.style.width = document.getElementById("fot").innerHTML.split("/width/")[3];
+three.src = document.getElementById("fot").innerHTML.split("<")[3];
+three.style.width = document.getElementById("fot").innerHTML.split(">")[3];
 three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "alert") {
@@ -140,7 +140,7 @@ five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "input") {
 var five = document.createElement("input");
-five.placeholder = document.getElementById("fot").innerHTML.split("...")[5];
+five.placeholder = document.getElementById("fot").innerHTML.split(";")[5];
 five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "link") {
@@ -151,20 +151,20 @@ five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "photo") {
 var five = document.createElement("img");
-five.src = document.getElementById("fot").innerHTML.split("/src/")[5];
-five.style.width = document.getElementById("fot").innerHTML.split("/width/")[5];
+five.src = document.getElementById("fot").innerHTML.split("<")[5];
+five.style.width = document.getElementById("fot").innerHTML.split(">")[5];
 five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "embed") {
 var five = document.createElement("embed");
-five.src = document.getElementById("fot").innerHTML.split("/src/")[5];
-five.style.width = document.getElementById("fot").innerHTML.split("/width/")[5];
+five.src = document.getElementById("fot").innerHTML.split("<")[5];
+five.style.width = document.getElementById("fot").innerHTML.split(">")[5];
 five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "video") {
 var five = document.createElement("video");
-five.src = document.getElementById("fot").innerHTML.split("/src/")[5];
-five.style.width = document.getElementById("fot").innerHTML.split("/width/")[5];
+five.src = document.getElementById("fot").innerHTML.split("<")[5];
+five.style.width = document.getElementById("fot").innerHTML.split(">")[5];
 five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "alert") {
@@ -188,7 +188,7 @@ seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "input") {
 var seven = document.createElement("input");
-seven.placeholder = document.getElementById("fot").innerHTML.split("...")[7];
+seven.placeholder = document.getElementById("fot").innerHTML.split(";")[7];
 seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "link") {
@@ -199,20 +199,20 @@ seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "photo") {
 var seven = document.createElement("img");
-seven.src = document.getElementById("fot").innerHTML.split("/src/")[7];
-seven.style.width = document.getElementById("fot").innerHTML.split("/width/")[7];
+seven.src = document.getElementById("fot").innerHTML.split("<")[7];
+seven.style.width = document.getElementById("fot").innerHTML.split(">")[7];
 seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "embed") {
 var seven = document.createElement("embed");
-seven.src = document.getElementById("fot").innerHTML.split("/src/")[7];
-seven.style.width = document.getElementById("fot").innerHTML.split("/width/")[7];
+seven.src = document.getElementById("fot").innerHTML.split("<")[7];
+seven.style.width = document.getElementById("fot").innerHTML.split(">")[7];
 seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "video") {
 var seven = document.createElement("video");
-seven.src = document.getElementById("fot").innerHTML.split("/src/")[7];
-seven.style.width = document.getElementById("fot").innerHTML.split("/width/")[7];
+seven.src = document.getElementById("fot").innerHTML.split("<")[7];
+seven.style.width = document.getElementById("fot").innerHTML.split(">")[7];
 seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "alert") {
@@ -236,7 +236,7 @@ nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "input") {
 var nine = document.createElement("input");
-nine.placeholder = document.getElementById("fot").innerHTML.split("...")[9];
+nine.placeholder = document.getElementById("fot").innerHTML.split(";")[9];
 nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "link") {
@@ -247,20 +247,20 @@ nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "photo") {
 var nine = document.createElement("img");
-nine.src = document.getElementById("fot").innerHTML.split("/src/")[9];
-nine.style.width = document.getElementById("fot").innerHTML.split("/width/")[9];
+nine.src = document.getElementById("fot").innerHTML.split("<")[9];
+nine.style.width = document.getElementById("fot").innerHTML.split(">")[9];
 nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "embed") {
 var nine = document.createElement("embed");
-nine.src = document.getElementById("fot").innerHTML.split("/src/")[9];
-nine.style.width = document.getElementById("fot").innerHTML.split("/width/")[9];
+nine.src = document.getElementById("fot").innerHTML.split("<")[9];
+nine.style.width = document.getElementById("fot").innerHTML.split(">")[9];
 nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "video") {
 var nine = document.createElement("video");
-nine.src = document.getElementById("fot").innerHTML.split("/src/")[9];
-nine.style.width = document.getElementById("fot").innerHTML.split("/width/")[9];
+nine.src = document.getElementById("fot").innerHTML.split("<")[9];
+nine.style.width = document.getElementById("fot").innerHTML.split(">")[9];
 nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "alert") {
