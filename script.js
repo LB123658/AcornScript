@@ -26,7 +26,7 @@ text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "input") {
 var text = document.createElement("input");
-text.placeholder = document.getElementById("fot").innerHTML.split("/placeholder/")[1];
+text.placeholder = document.getElementById("fot").innerHTML.split("...")[1];
 text.id = document.getElementById("fot").innerHTML.split("#")[1];
 div.appendChild(text);
 } else if (document.getElementById("fot").innerHTML.split("*")[1] == "link") {
@@ -92,7 +92,7 @@ three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "input") {
 var three = document.createElement("input");
-three.placeholder = document.getElementById("fot").innerHTML.split("/placeholder/")[3];
+three.placeholder = document.getElementById("fot").innerHTML.split("...")[3];
 three.id = document.getElementById("fot").innerHTML.split("#")[3];
 div.appendChild(three);
 } else if (document.getElementById("fot").innerHTML.split("*")[3] == "link") {
@@ -140,7 +140,7 @@ five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "input") {
 var five = document.createElement("input");
-five.placeholder = document.getElementById("fot").innerHTML.split("/placeholder/")[5];
+five.placeholder = document.getElementById("fot").innerHTML.split("...")[5];
 five.id = document.getElementById("fot").innerHTML.split("#")[5];
 div.appendChild(five);
 } else if (document.getElementById("fot").innerHTML.split("*")[5] == "link") {
@@ -188,7 +188,7 @@ seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "input") {
 var seven = document.createElement("input");
-seven.placeholder = document.getElementById("fot").innerHTML.split("/placeholder/")[7];
+seven.placeholder = document.getElementById("fot").innerHTML.split("...")[7];
 seven.id = document.getElementById("fot").innerHTML.split("#")[7];
 div.appendChild(seven);
 } else if (document.getElementById("fot").innerHTML.split("*")[7] == "link") {
@@ -236,7 +236,7 @@ nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "input") {
 var nine = document.createElement("input");
-nine.placeholder = document.getElementById("fot").innerHTML.split("/placeholder/")[9];
+nine.placeholder = document.getElementById("fot").innerHTML.split("...")[9];
 nine.id = document.getElementById("fot").innerHTML.split("#")[9];
 div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "link") {
