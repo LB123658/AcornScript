@@ -1,0 +1,11 @@
+#red {
+  background: red;
+  border: 1px solid red;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+#red:hover {
+  opacity: 0.6;
+}
