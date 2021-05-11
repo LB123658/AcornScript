@@ -7,5 +7,5 @@ To create a heading and text below it, use this example code.
 :heading: /This is a heading/
 :text: /This is an example text./
 ```
-AcornScript only allows two lines of code right now but there will be more soon.
-To create a button that says "Hello" `:button: /hello/`
+AcornScript only allows two lines of code right now but there will be more soon.\
+To create a button that says "Hello" ```:button: /hello/```
