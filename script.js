@@ -1,6 +1,9 @@
 var div = document.getElementById("div");
 var x = document.getElementById("txt");
 function myFunction() {
+//clear old script
+document.getElementById("fot").remove();
+div.innerHTML = "";
 // store script
 var p = document.createElement("P");
 p.innerHTML = x.value;
