@@ -30,7 +30,7 @@ width ! !
 href | |  
 placeholder ; ;  
 ### Example file to test out
-```c#
+```javascript
 *heading* 'About AcornScript' ||
 *text* 'AcornScrpt lets you format text easily and add buttons, photos, videos and more, to easily make it more like a website. Each line of code must contain the special characters in pairs of two like they are written, unless you are only writing one line of code or only useing the heading and text elements' ||
 *link* 'Learn more' |https://lb123658.github.io/AcornScript/docs|
