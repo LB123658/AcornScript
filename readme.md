@@ -35,6 +35,13 @@ placeholder ; ;
 *text* 'AcornScrpt lets you format text easily and add buttons, photos, videos and more, to easily make it more like a website. Each line of code must contain the special characters in pairs of two like they are written, unless you are only writing one line of code or only useing the heading and text elements' ||
 *link* 'Learn more' |https://lb123658.github.io/AcornScript/docs|
 ```
+### Create a website with AcornScript
+Add the following code to an HTML file and put the AcornScript code between the script tags.
+```html
+<script id="fot" type="text/acornscript"><script>
+<script src="https://lb123658.github.io/AcornScript/embed.js"></script>
+```
+
 ### NEWLY ADDED: drawing function
 ```c#
 function draw {
