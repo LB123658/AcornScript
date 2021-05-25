@@ -304,4 +304,5 @@ four.id = "four";
 four.style.background = fourth.split(";")[3];
 div.appendChild(four);
 }
+
 }
