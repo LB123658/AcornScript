@@ -2,10 +2,11 @@ function load() {
   document.getElementById("txt").innerHTML = localStorage.getItem("acornscript");
 }
 function run() {
+  var txt = document.GetElementById("txt");
 // Check browser support
 if (typeof(Storage) !== "undefined") {
   // Store
-  localStorage.setItem("acornscript", document.getElementById("txt").value);
+  localStorage.setItem("acornscript", txt.value);
   // Retrieve
   document.getElementById("txt").innerHTML = localStorage.getItem("acornscript");
 } else {
