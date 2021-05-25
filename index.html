@@ -89,9 +89,9 @@ font-family: 'Fira Code', monospace;
 font-weight: bold;
 }
 </style>
-<body>
+<body onload="load()">
 <h1 id="logo">AcornScript</h1>
-<button onclick="myFunction()" id="r">Run code</button>
+<button onclick="myFunction(); run()" id="r">Run code</button>
 <button onclick="copy()" id="c" title="Copy code"><span id="span">Copy</span></button>
 <a href="docs" target="_blank">
 <button id="open">More</button></a>
@@ -108,5 +108,6 @@ function copy() {
   document.getElementById("r").style.right = "170px";
 }  
 </script>
+<script src="run.js"></script>
 </body>
 </html>
