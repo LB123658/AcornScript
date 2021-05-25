@@ -1,6 +1,6 @@
+function myFunction() {
 var div = document.getElementById("div");
 var x = document.getElementById("txt").value;
-function myFunction() {
 
 // create element from script
 if (x.split("*")[1] == "button") {
