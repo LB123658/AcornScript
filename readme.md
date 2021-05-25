@@ -41,13 +41,3 @@ Add the following code to an HTML file and put the AcornScript code between the 
 <script id="fot" type="text/acornscript"></script>
 <script src="https://lb123658.github.io/AcornScript/embed.js"></script>
 ```
-
-### NEWLY ADDED: drawing function
-```c#
-function draw {
-pixel1 == purple;
-pixel2 == green;
-pixel3 == orange;
-pixel4 == #383838;
-}
-```
