@@ -1,6 +1,5 @@
 function load() {
   document.getElementById("txt").innerHTML = localStorage.getItem("acornscript");
-  myFunction();
 }
 function run() {
 // Check browser support
