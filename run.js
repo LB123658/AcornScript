@@ -7,7 +7,7 @@ function run() {
 var input = document.getElementById("txt");
 if (typeof(Storage) !== "undefined") {
   // Store
-  localStorage.setItem("notebook", input.value);
+  localStorage.setItem("acornscript", input.value);
   // Retrieve
   document.getElementById("txt").innerHTML = localStorage.getItem("acornscript");
 } else {
