@@ -36,7 +36,7 @@ placeholder ; ;
 *link* 'Learn more' |https://lb123658.github.io/AcornScript/docs|
 ```
 ### Create a website with AcornScript
-Add the following code to an HTML file and put the AcornScript code between the script tags.
+Add the following code to an HTML file and put the AcornScript code between the first script tags.
 ```html
 <script id="fot" type="text/acornscript"></script>
 <script src="https://lb123658.github.io/AcornScript/embed.js"></script>
