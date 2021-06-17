@@ -1,5 +1,6 @@
-//add this to HTML and add AcornScript between sript tags: <noscript id="fot" type="text/acornscript"> </noscript>
+//add this to HTML and add AcornScript between sript tags: <script id="fot" type="text/acornscript"> </script>
 document.body.style.fontFamily = "arial";
+var div = document.body;
 //full script
 if (document.getElementById("fot").innerHTML.split("*")[1] == "button") {
 var text = document.createElement("button");
