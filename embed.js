@@ -258,4 +258,3 @@ div.appendChild(nine);
 } else if (document.getElementById("fot").innerHTML.split("*")[9] == "alert") {
 alert(document.getElementById("fot").innerHTML.split("'")[9]);
 }
-}
